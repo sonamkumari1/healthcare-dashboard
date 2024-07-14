@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.half-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Adjust this value to cover half of the element */
+    height: 100%;
+    background-color: white; /* The background color you want to apply */
+    z-index: -1; /* Place the pseudo-element behind the main content */
+}
+
+
