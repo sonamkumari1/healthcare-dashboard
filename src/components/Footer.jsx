@@ -5,7 +5,7 @@ import { faUserMd, faHospital, faChartLine, faUser } from '@fortawesome/free-sol
 
 function Footer() {
   return (
-    <footer className="w-full bg-gray-100 p-2 fixed bottom-0">
+    <footer className="w-full bg-gray-200 p-3 fixed bottom-0">
       <nav>
         <ul className="flex justify-around list-none p-0 m-0">
           <li className="text-gray-500  flex flex-col items-center">

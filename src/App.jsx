@@ -5,7 +5,7 @@ import Main from "./components/Main";
 
 function App() {
   return (
-    <div>
+    <div className="bg-slate-100">
       <Header />
       <Main />
       <Footer />
